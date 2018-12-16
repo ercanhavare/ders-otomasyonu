@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-image:url(image/bg.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	text-align:center;}
+.resim{padding-bottom:10px;}
+
+.ana{
+	margin: 0 auto;
+	width: 1024px; margin: 0 auto; text-align: left;}
+.menu{
+	width:1024px;
+	height:260px;
+	background-color:#fff;
+	border-radius:10px;
+	font:bold 14px arial;
+	color:#090;}
+	
+.menu a:link, .menu a:visited{
+	font:14px arial;
+	color:#090;
+	height:70px;
+	padding:10px 25px;
+	margin:10px 15px;
+	text-decoration:none;
+	text-align:center;}
+	
+.menu a:hover, .menu a:active{
+	font:14px arial;
+	color:#FFF;
+	height:70px;
+	margin:10px 15px;
+	text-decoration:none;
+	background-color:#090;}
+	
+	
+	
+	
+	
+/*////////////////////////////////////////////////////////////////HEADER VE MENU BİTTİ.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+.contettutucu{
+	width:1024px;
+	margin-top:15px;
+	}
+.content{
+	width:800px;
+	background-color:#fff;
+	border-radius:10px;
+	float:left;}
+
+.contentalt{
+	width:1024px;
+	background-color:#fff;
+	border-radius:10px;
+	float:left;}
+	
+.contentkonu{
+	width:700px;
+	height:200px;
+	border-bottom:1.5px dashed red;
+	margin:30px 20px;}
+.contentkonu a:link, .contentkonu a:visited{
+	color:#F90;
+	font:14px Tahoma, Geneva, sans-serif;
+	text-decoration:none;
+	padding-left:400px;
+	letter-spacing:3px;}
+.contentkonu a:hover, .contentkonu a:active{
+	color:#090;
+	font:14px Tahoma, Geneva, sans-serif;
+	text-decoration:none;}
+
+.contentbaslik{
+	font:bold 18px Tahoma, Geneva, sans-serif;
+	color:rgba(255,102,0,1);
+	padding-top:10px;
+	padding-left:20px;}
+.contentyazi{
+	color:#090;
+	font:14px Tahoma, Geneva, sans-serif;
+	margin-top:20px;
+	padding-left:20px;}
+	
+.contentresim{
+	float:left;
+	padding-right:20px;}
+/*////////////////////////////////////////////////////////////////CONTENT BİTTİ.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/	
+.sidebartutucu{
+	width:200px;
+	float:right;}
+	
+.sidebar{
+	height:300px;
+	background-color:#fff;
+	border-radius:10px;
+	overflow:hidden;
+	text-align:center;}
+	
+.sidebar2{
+	height:300px;
+	background-color:#fff;
+	margin-top:24px;
+	border-radius:10px;}
+	
+.sidebar3{
+	height:150px;
+	background-color:#fff;
+	margin-top:24px;
+	border-radius:10px;}
+	
+.sidebarbaslik{
+	font:bold 14px Tahoma, Geneva, sans-serif;
+	color:#F90;
+	padding:15px;
+	text-align:center;}	
+	
+/*////////////////////////////////////////////////////////////////SIDEBAR BİTTİ.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/	
+.temizle{clear:left;}
+.temizle2{clear:right;}
+
+.footer{
+	width:1024px;
+	height:50px;
+	background-color:#fff;
+	margin-top:20px;
+	border-radius:10px;
+	text-align:center;}
+.footeryazi{
+	color:#090;
+	font:14px arial;
+	padding-top:20px;}
+	
+.footeralt{
+	width:auto;
+	height:50px;
+	background-color:#fff;
+	margin-top:20px;
+	border-radius:10px;
+	text-align:center;
+	color:#090;
+	font:14px arial;
+	padding-top:50px;}
